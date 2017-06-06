@@ -9,15 +9,15 @@ import {
 import Home from './Home';
 import Submit from './Submit';
 import createBrowserHistory from 'history/createBrowserHistory';
-
+import Edit from './Edit';
 
 const history = createBrowserHistory()
 
 ReactDOM.render(
 <Router>
-<div className="container">
+<div>
     <nav className="navbar navbar-default navbar-static-top">
-      <div className="container-fluid">
+      <div className="container">
         <div className="navbar-header">
           <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span className="sr-only">Toggle navigation</span>
@@ -39,6 +39,7 @@ ReactDOM.render(
 
       <Route exact path="/" component={Home}/>
       <Route path="/submit" component={Submit} history={history}/>
+      <Route path="/edit/:id" component={Edit}/>
     </div>
   </Router>,
   document.getElementById('root')
