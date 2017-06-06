@@ -1,6 +1,7 @@
-This is a MERN stack application which allows users to upload, edit, and save their favorite recipes through a RESTful API which combines both React JS with a Node.Js framework. 
+This is a MERN stack application which allows users to upload, edit, and save their favorite recipes through a RESTful API which combines both React JS with a Node.Js framework.
 
-View the live app here: https://sheltered-eyrie-54525.herokuapp.com/
+![2017-06-07 2](https://user-images.githubusercontent.com/18416366/26848411-fb755538-4b1d-11e7-9777-16b8f44e14f0.png)
+
 
 
 <h1>Technologies Used </h1>
@@ -12,5 +13,5 @@ View the live app here: https://sheltered-eyrie-54525.herokuapp.com/
 </ul>
 
 <h2> Acknowledgements </h2>
-This is my own version of Abhay Talreja's 'Love-to-Eat' app made from his wonderful 'React JS - Build Real World Applications' course on Udemy. In particular, this version incorporates the Mern-stack as opposed to local-storage and allows users to edit and update their recipes.
-This guide was particularly helpful in the creation of this app https://www.fullstackreact.com/articles/using-create-react-app-with-a-server/ 
+
+This guide was particularly helpful in the creation of this app https://www.fullstackreact.com/articles/using-create-react-app-with-a-server/
